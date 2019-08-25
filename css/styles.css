@@ -1,7 +1,33 @@
 @media screen and (max-width: 640px) {
-	body {
-		background-color: beige;
+	html {
+		color: #000;
 	}
+
+	body {
+		background-color: #f3cf7a;
+	}
+}
+
+body {
+	font-family: "Quicksand", sans-serif;
+	text-align: center;
+	color: #000;
+	font-size: 1.25rem;
+	margin: 0;
+}
+
+h1 {
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
+	font-size: 5rem;
+}
+
+h2 {
+	font-family: "Quicksand", sans-serif;
+	font-weight: bold;
+	font-size: 2.5rem;
+	color: #fff;
+	margin: 1.5rem;
 }
 
 #welcome-section {
@@ -11,5 +37,53 @@
 	align-items: center;
 	width: 100%;
 	height: 100vh;
-	background-color: rgb(64, 156, 125);
+	background-color: #f3cf7a;
+}
+
+#projects {
+	margin: 3rem auto;
+	width: 50%;
+}
+
+#projects h2 {
+	color: #000;
+}
+
+#projects code {
+	background-color: #6e3b3b;
+	border-radius: 3px;
+	font-size: 0.95rem;
+	padding: 3px;
+}
+
+#projects code:hover {
+	background-color: #f3cf7a;
+}
+
+#contact {
+	background-color: #ac3f21;
+	padding: 1.5rem;
+}
+
+.footer-link {
+	margin-top: 5%;
+	padding: 10px;
+}
+
+.copyright {
+	margin: 25px auto;
+	color: #fff;
+}
+
+a {
+	color: #f3cf7a;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.bg-custom {
+	background-color: #ac3f21;
 }
